@@ -8,10 +8,11 @@ def hello():
     return "Hello World from Jim Doran 3"
 
 
-@app.route('/jim')
+@app.route('/foo')
 def accounts():
-    return "this is jim endpoint"
-    
+    return "this is foo endpoint"
+
+
 
 @app.route('/login')
 def login():
