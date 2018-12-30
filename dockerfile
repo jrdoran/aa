@@ -7,8 +7,6 @@ WORKDIR /app
 
 
 
-
-
 #Install latest patches
 #RUN apt-get update && apt-get install -y \
 #    && apt-get install -y wget 
@@ -21,13 +19,6 @@ WORKDIR /app
 
 #Install VuFind's dependecies
 #RUN apt-get install -y -f
-
-
-
-
-
-
-
 
 
 
